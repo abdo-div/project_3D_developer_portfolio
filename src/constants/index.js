@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  nexride,
+  chattrix,
+  aerox,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +49,8 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -116,150 +111,107 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Backend Engineer",
+    company_name: "Node.js & Cloud Architecture",
+    icon: nodejs,
+    iconBg: "#339933",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing and maintaining scalable RESTful APIs and microservices using Node.js and Express.js.",
+      "Architecting robust database schemas and query optimizations across MongoDB Atlas and PostgreSQL instances.",
+      "Integrating real-time bidirectional messaging infrastructure using Socket.io and secure authentication with Google OAuth.",
+      "Containerizing application services using Docker Compose and managing continuous deployment configurations.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Database & API Specialist",
+    company_name: "Relational & NoSQL Systems",
+    icon: mongodb, // or postgresql / database icon
+    iconBg: "#47A248",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing normalized relational schemas and high-performance NoSQL structures using SQL Server, PostgreSQL, and MongoDB.",
+      "Implementing type-safe ORM configurations with Drizzle ORM and robust request validation using Zod schemas.",
+      "Building third-party service integrations including Stripe webhooks for e-commerce payment workflows.",
+      "Optimizing query performance using 2DSphere geospatial indexes, connection pooling, and aggregation pipelines.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Full Stack Developer",
+    company_name: "Web Applications & Real-Time Workspaces",
+    icon: reactjs, // or web / fullstack icon
+    iconBg: "#1F2937",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing end-to-end web applications combining responsive frontend interfaces with high-performance Node.js backends.",
+      "Building interactive live tools, e-commerce systems, and workspace platforms featuring real-time state synchronization.",
+      "Executing Git team branching workflows, commit rebasing strategies, and repository management on GitHub.",
+      "Enforcing clean architecture principles, modular code organization, and thorough end-to-end system testing.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Chattrix",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A real-time workspace and messaging platform featuring live bidirectional communication, active user presence tracking, dynamic channel management, and secure Google OAuth authentication.",
     tags: [
       {
-        name: "react",
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "socket.io",
         color: "blue-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: chattrix, // replace with your imported image variable
+    preview_link: "https://real-time-chat-app-r5ca.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "AeroX",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An e-commerce backend platform built for high-performance gaming hardware sales, integrated with Stripe webhooks for automated payment processing and secure user session management.",
     tags: [
       {
-        name: "react",
+        name: "express",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "stripe",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: aerox, // replace with your imported image variable
+    preview_link: "https://aerox-x1gj.onrender.com/",
   },
   {
-    name: "Trip Guide",
+    name: "NexRide",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A ride-hailing backend service featuring geospatial location indexing for driver-rider matching, dynamic trip fare calculation, and high-concurrency MongoDB database architecture.",
     tags: [
       {
-        name: "nextjs",
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nexride, // replace with your imported image variable
+    preview_link: "https://github.com/abdo-div/NexRide",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

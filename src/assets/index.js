@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import chattrix from "./chattrix.png";
+import aerox from "./aerox.png";
+import nexride from "./nexride.png";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  chattrix,
+  aerox,
+  nexride,
 };
