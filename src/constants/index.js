@@ -210,7 +210,7 @@ const projects = [
       },
     ],
     image: nexride, // replace with your imported image variable
-    preview_link: "https://github.com/abdo-div/NexRide",
+    preview_link: "https://nexride-kxka.onrender.com",
   },
 ];
 
