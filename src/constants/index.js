@@ -26,6 +26,7 @@ import {
   nexride,
   chattrix,
   aerox,
+  ApiPilot,
 } from "../assets";
 
 export const navLinks = [
