@@ -212,6 +212,27 @@ const projects = [
     image: nexride, // replace with your imported image variable
     preview_link: "https://nexride-kxka.onrender.com",
   },
+  {
+    name: "ApiPilot",
+    description:
+      "A full-stack API testing platform designed for real-time request execution, workspace collaboration, and performance monitoring across REST endpoints.",
+    tags: [
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redis",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ApiPilot, // replace with your imported image variable
+    preview_link: "https://prolific-smile-production-9916.up.railway.app",
+  },
 ];
 
 export { services, technologies, experiences, projects };

@@ -65,4 +65,5 @@ export {
   chattrix,
   aerox,
   nexride,
+  ApiPilot,
 };
