@@ -32,7 +32,7 @@ import tripguide from "./tripguide.png";
 import chattrix from "./chattrix.png";
 import aerox from "./aerox.png";
 import nexride from "./nexride.png";
-
+import ApiPilot from "./ApiPilot.png";
 export {
   logo,
   backend,
